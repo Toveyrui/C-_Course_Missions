@@ -1,0 +1,108 @@
+Last login: Sun Nov 19 19:35:47 on ttys006
+❯ echo "第一步：新建工程" && mkdir Ex_5-15 && cd Ex_5-15
+第一步：新建工程
+❯ echo "第二步：新建源文件" && vim main.cpp
+第二步：新建源文件
+❯ bat main.cpp
+───────┬────────────────────────────────────────────────────────────────────────
+       │ File: main.cpp
+───────┼────────────────────────────────────────────────────────────────────────
+   1   │ /***
+   2   │ *@file      main.cpp
+   3   │ *@brief     try to define diffrient life time object
+   4   │ *@author    Reiky
+   5   │ *@date      Nov.16.2023
+   6   │ *@see       Page 190.
+   7   │ */
+   8   │ #include<iostream>
+   9   │ #include<string>
+  10   │ using namespace std;
+  11   │ class A
+  12   │ {
+  13   │     public:
+  14   │         A(const char *st);
+  15   │         ~A();
+  16   │     private:
+  17   │         char string[50];
+  18   │ };
+  19   │ A::A(const char *st)
+  20   │ {
+  21   │     strcpy(string,st);
+  22   │     cout<<"constructor called for"<<string<<endl;
+  23   │ }
+  24   │ A::~A()
+  25   │ {
+  26   │     cout<<"Destructor called for"<<string<<endl;
+  27   │ }
+  28   │ void fun()
+  29   │ {
+  30   │     A FunObject("FunObject");
+  31   │     static A staticObject("StaticObject");
+  32   │     cout<<"In main()."<<endl;
+  33   │ }
+  34   │ A GlobalObject("GlobalObject");
+  35   │ int main()
+  36   │ {
+  37   │     A MainObject("MainObject");
+  38   │     cout<<"In main(),befor called fun\n";
+  39   │     fun();
+  40   │     cout<<"In main(),after called fun\n";
+  41   │ }
+───────┴────────────────────────────────────────────────────────────────────────
+❯ echo "第三步：编译源文件" && clang++ main.cpp -o Ex_5-15.out
+第三步：编译源文件
+❯ echo "第四步：运行程序" && ./Ex_5-15.out
+第四步：运行程序
+constructor called forGlobalObject
+constructor called forMainObject
+In main(),befor called fun
+constructor called forFunObject
+constructor called forStaticObject
+In main().
+Destructor called forFunObject
+In main(),after called fun
+Destructor called forMainObject
+Destructor called forStaticObject
+Destructor called forGlobalObject
+
+ ~/Doc/workspace/C++_Course_Missions/Ex_Third/Ex_5-15 ······ 07:40:24 下午 ─╮
+❯                                                                            ─╯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

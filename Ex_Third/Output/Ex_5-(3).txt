@@ -1,0 +1,69 @@
+Last login: Sun Nov 19 19:40:55 on ttys006
+❯ echo "第一步：新建工程" && mkdir "Ex_5-(3)" && cd "Ex_5-(3)"
+第一步：新建工程
+❯ echo "第二步：新建源文件" && vim main.cpp
+第二步：新建源文件
+❯ bat main.cpp
+───────┬────────────────────────────────────────────────────────────────────────
+       │ File: main.cpp
+───────┼────────────────────────────────────────────────────────────────────────
+   1   │ /***
+   2   │ *@file      main.cpp
+   3   │ *@brief     init a static verb.
+   4   │ *@author    Reiky
+   5   │ *@date      Nov.16.23
+   6   │ *@see       Page 196.
+   7   │ */
+   8   │ #include<iostream>
+   9   │ using namespace std;
+  10   │ class Count{
+  11   │     public:
+  12   │         Count(){count++;}
+  13   │         static int HM(){return count;}
+  14   │         ~Count(){count--;}
+  15   │     private:
+  16   │         static int count;
+  17   │ };
+  18   │ int Count::count=100;
+  19   │ int main(){
+  20   │     Count c1,c2,c3,c4;
+  21   │     cout<<Count::HM()<<endl;
+  22   │ }
+───────┴────────────────────────────────────────────────────────────────────────
+❯ echo "第三部编译源文件" && clang++ main.cpp -o "Ex_5-(3)"
+第三部编译源文件
+❯ echo "第四步：运行程序" && ./Ex_5-\(3\)
+第四步：运行程序
+104
+
+ ~/Doc/workspace/C++_Course_Missions/Ex_Third/Ex_5-(3) ····· 07:55:45 下午 ─╮
+❯                                                                            ─╯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

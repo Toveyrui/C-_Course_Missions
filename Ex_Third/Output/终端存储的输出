@@ -1,0 +1,43 @@
+Last login: Sun Nov 19 19:56:17 on ttys006
+❯ echo "例5.14" && ./Ex_5-14/Ex_5-14.out && echo " " && echo "例5.15" && ./Ex_5-15/Ex_5-15.out && echo " " && echo "第五章作业题三．1程序:" && ./Ex_5-\(3\)/Ex_5-\(3\)
+例5.14
+x=5,y=1
+x=6,y=9
+x=5,y=9
+ 
+例5.15
+constructor called forGlobalObject
+constructor called forMainObject
+In main(),befor called fun
+constructor called forFunObject
+constructor called forStaticObject
+In main().
+Destructor called forFunObject
+In main(),after called fun
+Destructor called forMainObject
+Destructor called forStaticObject
+Destructor called forGlobalObject
+ 
+第五章作业题三．1程序:
+104
+
+ ~/Documents/workspace/C++_Course_Missions/Ex_Third ········ 08:27:35 下午 ─╮
+❯                                                                            ─╯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
