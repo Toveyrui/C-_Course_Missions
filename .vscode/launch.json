@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/reiky/Documents/workspace/C++_Course_Missions/Ex_Sixth/程序1",
-      "program": "/Users/reiky/Documents/workspace/C++_Course_Missions/Ex_Sixth/程序1/build/Debug/outDebug"
+      "cwd": "/Users/reiky/Documents/workspace/C++_Course_Missions",
+      "program": "/Users/reiky/Documents/workspace/C++_Course_Missions/build/Debug/outDebug"
     }
   ]
 }
