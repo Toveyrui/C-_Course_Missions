@@ -12,17 +12,17 @@
 
 ### 程序目录：
 
-[第一次作用源码和程序：Ex_First](./Ex_First)
+[第一次作业源码和程序：Ex_First](./Ex_First)
 
-[第二次作用源码和程序：Ex_Second](./Ex_Second)
+[第二次作业源码和程序：Ex_Second](./Ex_Second)
 
-[第三次作用源码和程序：Ex_Thrid](./Ex_Third)
+[第三次作业源码和程序：Ex_Thrid](./Ex_Third)
 
-[第四次作用源码和程序：Ex_Fourth](./Ex_Fourth)
+[第四次作业源码和程序：Ex_Fourth](./Ex_Fourth)
 
-[第五次作用源码和程序：Ex_Fifth](./Ex_Fifth)
+[第五次作业源码和程序：Ex_Fifth](./Ex_Fifth)
 
-[第六次作用源码和程序：Ex_Sixth](./Ex_Sixth)
+[第六次作业源码和程序：Ex_Sixth](./Ex_Sixth)
 
 ### 说明：
 
